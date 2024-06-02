@@ -1,0 +1,26 @@
+.footer {
+    display: grid;
+    height: 110px;
+    grid-template-rows: auto auto;
+    background-color: #000000;
+}
+
+.atr {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.icn a img {
+    height: 35px;
+}
+
+.atr_m a {
+    color: #ffd700;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
